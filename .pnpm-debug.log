@@ -1,0 +1,42 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/zoeyong/Documents/WebDev/Typescript/Typescript-ts"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/zoeyong/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zoeyong/Documents/WebDev/Typescript/Typescript-ts/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zoeyong/Documents/WebDev/Typescript/Typescript-ts",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.11.0",
+    "latestVersion": "7.1.0"
+  },
+  "5 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@type-challengs/utils is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer npm_[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer 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",
+      "url": "https://registry.npmjs.org/@type-challengs%2Futils"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "@type-challengs/utils",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/@type-challengs%2Futils: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/@type-challengs%2Futils: Not Found - 404\n    at RetryOperation._fn (/Users/zoeyong/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:79604:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
