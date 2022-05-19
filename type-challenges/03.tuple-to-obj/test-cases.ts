@@ -8,3 +8,6 @@ type cases = [
 
 // @ts-expect-error
 type error = TupleToObject<[[1, 2], {}]>
+
+//typeof => cost let JS to TS type interface 
+//as const => readonly
